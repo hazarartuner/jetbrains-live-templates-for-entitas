@@ -1,0 +1,14 @@
+using Entitas;
+
+public class $NAME$ : IExecuteSystem  {
+	private Contexts _contexts;
+
+    public $NAME$(Contexts contexts) {
+    	_contexts = contexts;
+    }
+
+	public void Execute() {
+		// per-frame code goes here
+
+	}
+}

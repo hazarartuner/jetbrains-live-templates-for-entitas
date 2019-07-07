@@ -1,0 +1,14 @@
+using Entitas;
+
+public class $NAME$ : IInitializeSystem  {
+	private Contexts _contexts;
+
+    public $NAME$(Contexts contexts) {
+    	_contexts = contexts;
+    }
+
+	public void Initialize() {
+		// Initialization code here
+
+	}
+}

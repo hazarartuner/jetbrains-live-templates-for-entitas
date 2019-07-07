@@ -1,0 +1,22 @@
+using Entitas;
+using System.Collections.Generic;
+
+public class $NAME$ : ReactiveSystem<GameEntity> {
+	public $NAME$ (Contexts contexts) : base(contexts.game) {
+
+	}
+
+	protected override ICollector<GameEntity> GetTrigger(IContext<GameEntity> context) {
+		return context.CreateCollector();
+	}
+
+	protected override bool Filter(GameEntity entity) {
+        throw new System.NotImplementedException();
+	}
+
+	protected override void Execute(List<GameEntity> entities) {
+		foreach (var e in entities) {
+			// do stuff to the matched entities
+		}
+	}
+}
