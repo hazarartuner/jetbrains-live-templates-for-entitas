@@ -1,0 +1,13 @@
+using Entitas;
+
+public class $NAME$ : ITearDownSystem  {
+	private Contexts _contexts;
+
+    public $NAME$(Contexts contexts) {
+    	_contexts = contexts;
+    }
+
+	public void TearDown() {
+		// Teardown code here
+	}
+}

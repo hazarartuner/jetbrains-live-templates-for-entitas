@@ -19,8 +19,10 @@ https://www.jetbrains.com/help/rider/Sharing_Live_Templates.html#import*
 ## Abbreviations
 
 To generate template codes use the abbreviations below then press TAB:
+- **e_clean** : CleanUp System
 - **e_comp** : Component
-- **e_init** : Initialize System
 - **e_exec** : Execute System
-- **e_react** : Reactive System
 - **e_feat** : Feature
+- **e_init** : Initialize System
+- **e_react** : Reactive System
+- **e_tear** : TearDown System

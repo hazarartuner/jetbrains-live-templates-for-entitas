@@ -1,0 +1,14 @@
+using Entitas;
+
+public class $NAME$ : ICleanupSystem  {
+	private Contexts _contexts;
+
+    public $NAME$(Contexts contexts) {
+    	_contexts = contexts;
+    }
+
+	public void Cleanup() {
+		// cleanup code here
+        // runs after every execute and reactive system has completed
+	}
+}
