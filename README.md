@@ -12,9 +12,9 @@ I use Rider IDE for coding. And I noticed that there is no available live templa
 5. In the Import Settings dialog, select the Live templates checkbox and click OK.
 
 ---
-`
-*If you have an issue with impoting settings, follow the instructions from Rider's official website: https://www.jetbrains.com/help/rider/Sharing_Live_Templates.html#import*
-`
+
+*If you have an issue with importing these settings, follow the instructions from JetBrains Rider's official website: 
+https://www.jetbrains.com/help/rider/Sharing_Live_Templates.html#import*
 
 ## Abbreviations
 
