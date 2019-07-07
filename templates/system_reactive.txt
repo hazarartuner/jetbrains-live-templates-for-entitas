@@ -2,8 +2,10 @@ using Entitas;
 using System.Collections.Generic;
 
 public class $NAME$ : ReactiveSystem<GameEntity> {
-	public $NAME$ (Contexts contexts) : base(contexts.game) {
+    private Contexts _contexts;
 
+	public $NAME$ (Contexts contexts) : base(contexts.game) {
+        _contexts = contexts;
 	}
 
 	protected override ICollector<GameEntity> GetTrigger(IContext<GameEntity> context) {
